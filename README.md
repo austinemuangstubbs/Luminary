@@ -1,5 +1,3 @@
-I'll help format this as a beautiful README.md file with proper Markdown styling:
-
 # Illuminated Manuscript App
 
 ## Overview
