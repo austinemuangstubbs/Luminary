@@ -11,4 +11,3 @@ This front-end application converts any input text into the style of an illumina
 * **Color Themes**: Customizable color schemes that mimic historical manuscripts
 * **Preview**: Real-time preview of the text as an illuminated manuscript
 * **Export**: Ability to download the manuscript as an image or PDF
-
