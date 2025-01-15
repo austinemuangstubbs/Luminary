@@ -7,17 +7,16 @@ const path = require('path');
 
 app.get('/v1/images/:imageId', (req, res) => {
   const imageId = req.params.imageId;
-  return res.status(200).send({stuff:imageId});
+  return res.status(200).sendFile(path.join(__dirname, `../data/images/${imageId}.jpg`));
 });
 
 app.get('/v1/config/:configId', (req, res) => {
     const configId = req.params.configId;
-    return res.status(200).send({stuff:configId});
+    return res.status(200).sendFile(path.join(__dirname, `../data/configs/${configId}.json`));
 });
 
 app.get('/v1/templates', (req, res) => {
-    const configId = req.params.configId;
-    return res.status(200).send({stuff:configId});
+    return res.status(200).sendFile(path.join(__dirname, '../data/template.json'));
 });
 // statically serve everything in the build folder on the route '/build'
 app.use('/build', express.static(path.join(__dirname, '../build')));
@@ -26,5 +25,5 @@ app.get('/', (req, res) => {
   return res.status(200).sendFile(path.join(__dirname, '../index.html'));
 });
 
-app.listen(3000); //listens on port 3000 -> http://localhost:3000/
+app.listen(3000);
 

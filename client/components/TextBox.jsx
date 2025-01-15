@@ -9,8 +9,8 @@ const TextBox = () => {
 
   return (
     <div>
-      <input type="text" value={value} onChange={handleChange} />
-      <p>You entered: {value}</p>
+      <h2>Text</h2>
+      <textarea className='textView' value={value} onChange={handleChange} />
     </div>
   );
 }

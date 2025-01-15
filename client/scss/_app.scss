@@ -1,0 +1,62 @@
+.mainContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+h1 {
+    font-family: "Shippori Mincho B1", serif;
+    font-weight: 900;
+    font-size: 3.5em;
+}
+
+h2 {
+    font-family: "Exo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.875em;
+}
+
+.textView{
+    height: 1000px;
+    border: 4px solid #0077b6;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    width: 360px;
+    padding: 20px;
+}
+
+
+.templateContainer{
+    overflow-y: scroll; 
+    height: 1000px;
+    // display: flex;
+    // flex-wrap:wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    width: 360px;
+}
+
+.templateCard{
+    height: 240px;
+    width: 120px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.templateCard:hover{
+    border: 4px solid  #0077b6;
+}
+
+.templateCard:active{
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    transform: translateY(4px);
+}
+
+.renderViewImage{
+    height: 1000px;
+    width: 500px;
+    object-fit: contain;
+}

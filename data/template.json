@@ -1,0 +1,29 @@
+{
+    "templates":[
+        {
+            "name":"Madonna and Child",
+            "id":"RNNWnI7t",
+            "url":"http://localhost:3000/v1/images/RNNWnI7t"
+        },
+        {
+            "name":"Art Deco",
+            "id":"jR9BHjpp",
+            "url":"http://localhost:3000/v1/images/jR9BHjpp"
+        },
+        {
+            "name":"Desert Scroll",
+            "id":"VuJxZTWY",
+            "url":"http://localhost:3000/v1/images/VuJxZTWY"
+        },
+        {
+            "name":"Tribalism",
+            "id":"H533DSyb",
+            "url":"http://localhost:3000/v1/images/H533DSyb"
+        },
+        {
+            "name":"East of East",
+            "id":"NHx3l2V2",
+            "url":"http://localhost:3000/v1/images/NHx3l2V2"
+        }
+    ]
+}
