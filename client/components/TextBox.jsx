@@ -1,16 +1,17 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
+import { Context } from './App';
 
 const TextBox = () => {
-  const [value, setValue] = useState('');
-
+  
+  const { inputText,setInputText } = useContext(Context)
   const handleChange = (event) => {
-    setValue(event.target.value);
+    setInputText(event.target.value);
   };
 
   return (
     <div>
       <h2>Text</h2>
-      <textarea className='textView' value={value} onChange={handleChange} />
+      <textarea className='textView' value={inputText} onChange={handleChange} />
     </div>
   );
 }
