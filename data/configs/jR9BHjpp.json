@@ -1,7 +1,15 @@
 {
-    "id":"jR9BHjpp",
-    "textPositioningData": {
-           "key1":"info-1",
-           "key2": "info-2"
-    }
+    "position": "absolute",
+    "top": "65%",
+    "left": "20%",
+    "right":"20%",
+    "bottom": "15%",
+    "fontSize": "24px",
+    "color": "#05050E",
+    "fontWeight": "bold",
+    "padding": "20px",
+    "font-family": "'Limelight', serif",
+    "font-weight": 600,
+    "white-space": "pre-wrap",
+    "overflow-wrap": "break-word"
 }

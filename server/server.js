@@ -10,7 +10,7 @@ app.get('/v1/images/:imageId', (req, res) => {
   return res.status(200).sendFile(path.join(__dirname, `../data/images/${imageId}.jpg`));
 });
 
-app.get('/v1/config/:configId', (req, res) => {
+app.get('/v1/configs/:configId', (req, res) => {
     const configId = req.params.configId;
     return res.status(200).sendFile(path.join(__dirname, `../data/configs/${configId}.json`));
 });

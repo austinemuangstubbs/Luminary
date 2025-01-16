@@ -1,7 +1,16 @@
 {
-    "id":"RNNWnI7t",
-    "textPositioningData": {
-           "key1":"info-1",
-           "key2": "info-2"
-    }
+    "position": "absolute",
+    "top": "60%",
+    "left": "21%",
+    "right":"21%",
+    "bottom": "15%",
+    "fontSize": "24px",
+    "color": "#363825",
+    "fontWeight": "bold",
+    "padding": "20px",
+    "font-family": "'Pinyon Script', serif",
+    "font-weight": 600,
+    "white-space": "pre-wrap",
+    "overflow-wrap": "break-word",
+    "text-align": "center"
 }

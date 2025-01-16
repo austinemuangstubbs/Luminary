@@ -7,9 +7,6 @@ const MainContainer = () => {
 
     return (
         <div className='mainContainer'>
-            {/* <div className='textBoxAndTemplateContainer'>
-                
-            </div> */}
             <TextBox/>
             <TemplateContainer/>
             <RenderView/>

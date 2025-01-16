@@ -16,14 +16,10 @@ const TemplateContainer = () => {
         .then(response => response.json())
         .then(data => {
             setTemplateInfo(data.templates)
-            console.log("data", data)
+            console.log("data from template fetch", data)
         })
     },[])
 
-    // const handleCardClick = (param) =>{
-    //     console.log("handleCardClick param", param)
-    //     setSelectedTemplate(param)
-    // }
 
     const templateStyleCreator = (urlParam) => {
         const returnObj = {}

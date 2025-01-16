@@ -6,6 +6,7 @@ export const Context = React.createContext()
 const App = () => {
 
     const [selectedTemplate,setSelectedTemplate]= useState('RNNWnI7t')
+    const [selectedConfig,setSelectedConfig]= useState('RNNWnI7t')
     const [inputText, setInputText] = useState('');
 
     const contextValue = {
@@ -13,6 +14,8 @@ const App = () => {
         setSelectedTemplate,
         inputText,
         setInputText,
+        selectedConfig,
+        setSelectedConfig
       };
 
     return(
