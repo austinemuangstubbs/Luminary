@@ -1,3 +1,4 @@
+App that converts your meaningful text into a beautiful manuscript.
 # Illuminated Manuscript App
 
 ## Overview
