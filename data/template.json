@@ -24,6 +24,11 @@
             "name":"East of East",
             "id":"NHx3l2V2",
             "url":"http://localhost:3000/v1/images/NHx3l2V2"
+        },
+        {
+            "name":"Spring Birds",
+            "id":"w9HPrZFH",
+            "url":"http://localhost:3000/v1/images/w9HPrZFH"
         }
     ]
 }

@@ -1,7 +1,18 @@
 {
-    "id":"H533DSyb",
-    "textPositioningData": {
-           "key1":"info-1",
-           "key2": "info-2"
-    }
+    "styles":{
+        "position": "absolute",
+        "top": "65%",
+        "left": "15%",
+        "right":"15%",
+        "bottom": "15%",
+        "fontSize": "24px",
+        "color": "#181C24",
+        "fontWeight": "bold",
+        "padding": "20px",
+        "font-family": "'Noto Serif TC', serif",
+        "font-weight": 600,
+        "white-space": "pre-wrap",
+        "overflow-wrap": "break-word"
+    },
+    "name":"Tribalism"
 }

@@ -9,9 +9,10 @@ const TextBox = () => {
   };
 
   return (
-    <div>
+    <div className='textBoxContainer'>
       <h2>Text</h2>
       <textarea className='textView' value={inputText} onChange={handleChange} />
+      <button className='majorButton'>Illuminate ✨</button>
     </div>
   );
 }

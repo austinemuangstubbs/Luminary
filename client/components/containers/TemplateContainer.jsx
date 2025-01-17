@@ -45,11 +45,12 @@ const TemplateContainer = () => {
     })
 
     return(
-        <div>
+        <div className="templateContainer">
             <h2 style={{ textAlign: 'center' }}>Templates</h2>
-            <div className="templateContainer">
+            <div className="templateInnerContainer">
                 {templateCards}
             </div>
+            {/* <button className='majorButton'>More Templates</button> */}
         </div>
     )
 }

@@ -1,15 +1,18 @@
 {
-    "position": "absolute",
-    "top": "65%",
-    "left": "15%",
-    "right":"15%",
-    "bottom": "15%",
-    "fontSize": "24px",
-    "color": "#181C24",
-    "fontWeight": "bold",
-    "padding": "20px",
-    "font-family": "'Noto Serif TC', serif",
-    "font-weight": 600,
-    "white-space": "pre-wrap",
-    "overflow-wrap": "break-word"
+    "styles":{
+        "position": "absolute",
+        "top": "65%",
+        "left": "15%",
+        "right":"15%",
+        "bottom": "15%",
+        "fontSize": "24px",
+        "color": "#181C24",
+        "fontWeight": "bold",
+        "padding": "20px",
+        "font-family": "'Noto Serif TC', serif",
+        "font-weight": 600,
+        "white-space": "pre-wrap",
+        "overflow-wrap": "break-word"
+    },
+    "name":"East of East"
 }

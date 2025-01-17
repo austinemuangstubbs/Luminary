@@ -8,7 +8,7 @@
 h1 {
     font-family: "Shippori Mincho B1", serif;
     font-weight: 900;
-    font-size: 3.5em;
+    font-size: 2.8em;
 }
 
 h2 {
@@ -18,13 +18,17 @@ h2 {
     font-size: 1.875em;
 }
 
+.textBoxContainer{
+    margin: 10px;
+}
+
 textarea {
-    font-size: 1.875em;
+    font-size: 1.5em;
 }
 
 .textView{
     height: 800px;
-    border: 4px solid #0077b6;
+    border: 4px solid #405cf5;
     border-radius: 20px;
     display: flex;
     flex-wrap:wrap;
@@ -33,13 +37,19 @@ textarea {
 }
 
 
+
 .templateContainer{
+    margin: 10px;
+}
+
+.templateInnerContainer{
     overflow-y: scroll; 
     height: 800px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     width: 360px;
     position: relative;
+    justify-self: center;
 }
 
 .templateCard{
@@ -50,12 +60,16 @@ textarea {
 }
 
 .templateCard:hover{
-    border: 4px solid  #0077b6;
+    border: 4px solid  #405cf5;
 }
 
 .templateCard:active{
     box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
     transform: translateY(4px);
+}
+
+.renderViewContainer{
+    margin: 10px;
 }
 
 .renderView {
@@ -64,6 +78,44 @@ textarea {
 
 .renderViewImage{
     height: 800px;
-    width: 500px;
+    width: 400px;
     object-fit: contain;
+}
+
+
+.majorButton {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.majorButton:disabled {
+  cursor: default;
+}
+
+.majorButton:active {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
 }

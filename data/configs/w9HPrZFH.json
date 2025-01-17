@@ -1,0 +1,20 @@
+{
+    "styles":{
+        "position": "absolute",
+        "top": "87%",
+        "left": "9%",
+        "right":"9%",
+        "bottom": "1%",
+        "fontSize": "11px",
+        "color": "#754021",
+        "fontWeight": "bold",
+        "padding": "20px",
+        "font-family": "'Petit Formal Script', serif",
+        "font-weight": 600,
+        "white-space": "pre-wrap",
+        "overflow-wrap": "break-word",
+        "text-align": "center"
+    },
+    "language":"Old English",
+    "name":"Spring Birds"
+}

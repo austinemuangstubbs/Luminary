@@ -1,15 +1,18 @@
 {
-    "position": "absolute",
-    "top": "40%",
-    "left": "30%",
-    "right":"30%",
-    "bottom": "15%",
-    "fontSize": "22px",
-    "color": "#754021",
-    "fontWeight": "bold",
-    "padding": "20px",
-    "font-family": "'Noto Naskh Arabic', serif",
-    "font-weight": 600,
-    "white-space": "pre-wrap",
-    "overflow-wrap": "break-word"
+    "styles":{
+        "position": "absolute",
+        "top": "40%",
+        "left": "30%",
+        "right":"30%",
+        "bottom": "15%",
+        "fontSize": "22px",
+        "color": "#754021",
+        "fontWeight": "bold",
+        "padding": "20px",
+        "font-family": "'Noto Naskh Arabic', serif",
+        "font-weight": 600,
+        "white-space": "pre-wrap",
+        "overflow-wrap": "break-word"
+    },
+    "name":"Desert Scroll"
 }

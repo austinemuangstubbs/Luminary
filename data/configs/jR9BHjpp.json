@@ -1,15 +1,19 @@
 {
-    "position": "absolute",
-    "top": "65%",
-    "left": "20%",
-    "right":"20%",
-    "bottom": "15%",
-    "fontSize": "24px",
-    "color": "#05050E",
-    "fontWeight": "bold",
-    "padding": "20px",
-    "font-family": "'Limelight', serif",
-    "font-weight": 600,
-    "white-space": "pre-wrap",
-    "overflow-wrap": "break-word"
+    "styles":{
+        "position": "absolute",
+        "top": "67%",
+        "left": "12%",
+        "right":"12%",
+        "bottom": "15%",
+        "fontSize": "18px",
+        "color": "#05050E",
+        "fontWeight": "bold",
+        "padding": "20px",
+        "font-family": "'Limelight', serif",
+        "font-weight": 600,
+        "white-space": "pre-wrap",
+        "overflow-wrap": "break-word",
+        "text-align": "center"
+    },
+    "name":"Art Deco"
 }
