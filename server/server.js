@@ -18,6 +18,11 @@ app.get('/v1/configs/:configId', (req, res) => {
 app.get('/v1/templates', (req, res) => {
     return res.status(200).sendFile(path.join(__dirname, '../data/template.json'));
 });
+
+app.post('/v1/illuminate', (req, res) => {
+  // run openai api translate calls
+  return res.status(200).sendFile(path.join(__dirname, '../data/template.json'));
+});
 // statically serve everything in the build folder on the route '/build'
 app.use('/build', express.static(path.join(__dirname, '../build')));
 // serve index.html on the route '/'

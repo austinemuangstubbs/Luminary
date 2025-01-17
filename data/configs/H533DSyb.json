@@ -1,15 +1,15 @@
 {
     "styles":{
         "position": "absolute",
-        "top": "65%",
-        "left": "15%",
-        "right":"15%",
+        "top": "68%",
+        "left": "10%",
+        "right":"10%",
         "bottom": "15%",
         "fontSize": "24px",
         "color": "#181C24",
         "fontWeight": "bold",
         "padding": "20px",
-        "font-family": "'Noto Serif TC', serif",
+        "font-family": "'Abyssinica SIL', serif",
         "font-weight": 600,
         "white-space": "pre-wrap",
         "overflow-wrap": "break-word"

@@ -2,8 +2,8 @@
     "styles":{
         "position": "absolute",
         "top": "40%",
-        "left": "30%",
-        "right":"30%",
+        "left": "25%",
+        "right":"25%",
         "bottom": "15%",
         "fontSize": "22px",
         "color": "#754021",
