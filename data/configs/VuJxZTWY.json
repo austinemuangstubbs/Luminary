@@ -5,7 +5,7 @@
         "left": "25%",
         "right":"25%",
         "bottom": "15%",
-        "fontSize": "22px",
+        "fontSize": "20px",
         "color": "#754021",
         "fontWeight": "bold",
         "padding": "20px",
@@ -14,5 +14,6 @@
         "white-space": "pre-wrap",
         "overflow-wrap": "break-word"
     },
-    "name":"Desert Scroll"
+    "name":"Desert Scroll",
+    "language":"Arabic"
 }

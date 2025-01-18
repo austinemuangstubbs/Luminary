@@ -9,7 +9,10 @@ const RenderView = () => {
     const { selectedConfig, setSelectedConfig }= useContext(Context)
     const { selectedTemplate, setSelectedTemplate }= useContext(Context)
     const { inputText, setInputText } = useContext(Context)
-    const [ templateConfig, setTemplateConfig ] = useState({})
+    const { templateConfig, setTemplateConfig } = useContext(Context)
+    const { renderViewStyle } = useContext(Context)
+    
+    
     
     console.log("inputText", inputText)
 
@@ -39,25 +42,6 @@ const RenderView = () => {
         });
     };
 
-    // const generatePDF = async (elementToPrintId, name) => {
-    //     const element = document.getElementById(elementToPrintId);
-    //     if (!element) {
-    //       throw new Error(`Element with id ${elementToPrintId} not found`);
-    //     }
-    //     const canvas = await html2canvas(element);
-    //     const data = canvas.toDataURL("image/png");
-    //     const pdf = new jsPDF({
-    //       orientation: "portrait",
-    //       unit: "mm",
-    //       format: [129, 70],
-    //     });
-    //     const imgProperties = pdf.getImageProperties(data);
-    //     const pdfWidth = pdf.internal.pageSize.getWidth();
-    //     const pdfHeight = (imgProperties.height * pdfWidth) / imgProperties.width;
-      
-    //     pdf.addImage(data, "PNG", 0, 0, pdfWidth/2, pdfHeight/2);
-    //     pdf.save(`${name}.pdf`);
-    // };
     
 
 
@@ -66,7 +50,7 @@ const RenderView = () => {
     return (
         <div className="renderViewContainer">
             <h2 style={{ textAlign: 'center' }}>Illuminated Script</h2>
-            <div id="illuminatedScript" className="renderView">
+            <div id="illuminatedScript" className="renderView" style={ renderViewStyle}>
                 <img className="renderViewImage" src={imageSource}></img>
                 <p style={templateConfig.styles}>{inputText}</p>
             </div>

@@ -8,6 +8,15 @@ const App = () => {
     const [selectedTemplate,setSelectedTemplate]= useState('RNNWnI7t')
     const [selectedConfig,setSelectedConfig]= useState('RNNWnI7t')
     const [inputText, setInputText] = useState('');
+    const [templateConfig, setTemplateConfig] = useState({})
+    const [renderViewStyle, setRenderViewStyle] = useState({});
+
+    const toggleStyle = () => {
+        setRenderViewStyle(prevStyle => ({
+          backdropFilter: prevStyle.backdropFilter === 'blur(8px)' ? '' : 'blur(8px)',
+        }));
+    };
+
 
     const contextValue = {
         selectedTemplate,
@@ -15,7 +24,12 @@ const App = () => {
         inputText,
         setInputText,
         selectedConfig,
-        setSelectedConfig
+        setSelectedConfig,
+        templateConfig, 
+        setTemplateConfig,
+        renderViewStyle, 
+        setRenderViewStyle,
+        toggleStyle
       };
 
     return(

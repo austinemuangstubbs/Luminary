@@ -1,11 +1,11 @@
 {
     "styles":{
         "position": "absolute",
-        "top": "68%",
-        "left": "10%",
-        "right":"10%",
+        "top": "67%",
+        "left": "9%",
+        "right":"9%",
         "bottom": "15%",
-        "fontSize": "24px",
+        "fontSize": "22px",
         "color": "#181C24",
         "fontWeight": "bold",
         "padding": "20px",
@@ -14,5 +14,6 @@
         "white-space": "pre-wrap",
         "overflow-wrap": "break-word"
     },
-    "name":"Tribalism"
+    "name":"Tribalism",
+    "language":"Amharic"
 }

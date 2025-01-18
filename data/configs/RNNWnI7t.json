@@ -5,7 +5,7 @@
         "left": "13%",
         "right":"13%",
         "bottom": "15%",
-        "fontSize": "24px",
+        "fontSize": "26px",
         "color": "#363825",
         "fontWeight": "bold",
         "padding": "20px",
@@ -15,5 +15,6 @@
         "overflow-wrap": "break-word",
         "text-align": "center"
     },
-    "name":"Madonna and Child"
+    "name":"Madonna and Child",
+    "language":"French"
 }
