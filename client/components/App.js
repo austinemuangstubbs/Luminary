@@ -12,8 +12,11 @@ const App = () => {
     const [renderViewStyle, setRenderViewStyle] = useState({});
 
     const toggleStyle = () => {
+        console.log("toggleStyle ran")
         setRenderViewStyle(prevStyle => ({
-          backdropFilter: prevStyle.backdropFilter === 'blur(8px)' ? '' : 'blur(8px)',
+          filter: prevStyle.filter === 'blur(8px)' ? 'none' : 'blur(8px)',
+          opacity: prevStyle.opacity === '0.6' ? '1' : '0.6',
+          transition: 'all 0.3s ease-in-out'
         }));
     };
 

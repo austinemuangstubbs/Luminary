@@ -17,26 +17,24 @@ const TextBox = () => {
   async function illuminateCall (message,language) {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
-    toggleStyle()
+    toggleStyle();
     console.log("illuminateCall triggered")
-    console.log("illuminateCall message", message)
-    console.log("illuminateCall language", language)
-    await fetch("http://localhost:3000/v1/illuminate", {
-        method: "POST",
-        body: JSON.stringify({ 
-        "message": message,
-        "language": language
-       }),
-       headers: myHeaders,
-    })
-    .then(response => response.json())
-    .then((data) => {
-        console.log("data in renderview useEffect fetch response", data)
-        setInputText(data.translation)
-        toggleStyle()
-        
-    })
-
+    try {
+      const response = await fetch("http://localhost:3000/v1/illuminate", {
+          method: "POST",
+          body: JSON.stringify({ 
+          "message": message,
+          "language": language
+         }),
+         headers: myHeaders,
+      });
+      const data = await response.json();
+      setInputText(data.translation);
+    } catch (error) {
+      console.error("Error during illumination:", error);
+    } finally {
+      toggleStyle();
+    }
   }
 
 
