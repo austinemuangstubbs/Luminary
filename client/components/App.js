@@ -8,7 +8,7 @@ const App = () => {
     const [selectedTemplate,setSelectedTemplate]= useState('RNNWnI7t')
     const [selectedConfig,setSelectedConfig]= useState('RNNWnI7t')
     const [inputText, setInputText] = useState('');
-    const [templateConfig, setTemplateConfig] = useState({})
+    const [templateConfig, setTemplateConfig] = useState({});
     const [renderViewStyle, setRenderViewStyle] = useState({});
 
     const toggleStyle = () => {
@@ -33,7 +33,7 @@ const App = () => {
         renderViewStyle, 
         setRenderViewStyle,
         toggleStyle
-      };
+    };
 
     return(
         <Context.Provider value={contextValue}>
