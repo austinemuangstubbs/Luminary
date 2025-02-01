@@ -3,10 +3,16 @@ App that converts your meaningful text into a beautiful manuscript.
 
 ## Overview
 
-This front-end application converts any input text into the style of an illuminated manuscript, blending modern technology with medieval art.
+This front-end application converts any input text into the style of an illuminated manuscript, blending modern technology with medieval art practices.
 
 
-![Luminary](https://github.com/user-attachments/assets/0e3534dd-a025-4809-b7ca-ffa10de85e2b)
+![image](https://github.com/user-attachments/assets/0f8cbea3-660f-43c0-a1b4-54bb121d21ec)
+![image](https://github.com/user-attachments/assets/19f04d09-95fa-425a-9cc8-b81ced04c7b7)
+![image](https://github.com/user-attachments/assets/9db50fa8-4d9b-4b32-8a82-388e8f5b2bf7)
+![image](https://github.com/user-attachments/assets/c224ed13-f8a9-45ac-9894-cd316b46b34d)
+
+
+
 
 
 ## Features
