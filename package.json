@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Luminary App",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node server/server.js",
     "build": "webpack",
